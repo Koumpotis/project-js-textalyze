@@ -11,10 +11,10 @@ function itemFrequency(array) {
         characterFrequency[item] += 1;
       }
     } for (let keys of Object.keys(characterFrequency)) {
-       characterFrequency[keys]= (characterFrequency[keys]/totalCount) 
+       characterFrequency[keys]= (characterFrequency[keys]/totalCount)*100 +' %';
     
     }
-    return characterFrequency
+    return characterFrequency;
 }
 console.log(itemFrequency(['h', 'e', 'y', 'e', 'e']));
     // } return characterFrequency;
