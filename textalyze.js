@@ -6,9 +6,12 @@
 
 // Open lib/itemCounts.js to get started on the first iteration.
 let itemCounts = require('./lib/itemCounts');
+let itemFrequency = require('./lib/itemFrequency');
+let openAndRead = require('./lib/openAndRead');
+let sanitize = require('./lib/sanitize');
+let stringToCharacters = require('./lib/stringToCharacters');
 
 let sampleInput = ['a', 'a', 'a', 'b', 'b', 'c'];
-
 let counts = itemCounts(sampleInput);
 
 // Object.keys returns an array of keys for the given object.
