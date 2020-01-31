@@ -6,7 +6,7 @@
 
 // Open lib/itemCounts.js to get started on the first iteration.
 let itemCounts = require('./lib/itemCounts');
-let itemFrequency = require('./lib/itemFrequency');
+let itemFrequency = require('./lib/frequencyChar');
 let openAndRead = require('./lib/openAndRead');
 let sanitize = require('./lib/sanitize');
 let stringToCharacters = require('./lib/stringToCharacters');
